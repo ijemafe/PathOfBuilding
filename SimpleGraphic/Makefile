@@ -4,7 +4,11 @@ format:
 
 compile:
 	@mkdir -p bin
-	clang++ -I /usr/include/qt -I /usr/include/qt/QtCore -I /usr/include/qt/QtGui/ -o bin/sg -std=c++14 -fPIC *.cpp
+	clang++ -I /usr/include/qt \
+		-I /usr/include/qt/QtCore \
+		-I /usr/include/qt/QtGui \
+		-I /usr/include/luajit-2.0 \
+		-o bin/sg -std=c++14 -fPIC *.cpp
 
 tidy:
 	clang-tidy *.cpp -- -std=c++14
