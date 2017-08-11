@@ -22,5 +22,6 @@ ninja
 
 ```
 cd PathOfBuilding.git
+unzip tree.zip
 ./run-linux.sh
 ```
