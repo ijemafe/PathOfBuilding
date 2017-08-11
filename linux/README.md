@@ -1,4 +1,4 @@
-# SimpleGraphic
+# Path of Building Linux Frontend
 
 ## Dependencies
 
@@ -6,7 +6,7 @@
 - luajit
 - meson
 - luarocks
-- lua-curl (`luarocks install --local lua-curl`)
+- lua-curl (`luarocks install lua-curl`)
 
 - zlib
 - opengl
@@ -15,7 +15,7 @@
 ## Build
 
 ```
-meson pobfrontend build
+meson . build
 cd build
 ninja
 ```
@@ -24,5 +24,5 @@ ninja
 
 ```
 cd PathOfBuilding.git
-./pobfrontend
+./run-linux.sh
 ```
