@@ -1,5 +1,5 @@
 #!/bin/sh
-BINARY=./linux/build/pobfrontend
+BINARY=./linux/bin/pobfrontend
 if [ -f $BINARY ]; then
 	$BINARY
 else

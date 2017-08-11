@@ -13,8 +13,8 @@
 ## Build
 
 ```
-meson . build
-cd build
+meson . bin
+cd bin
 ninja
 ```
 
