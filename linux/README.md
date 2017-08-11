@@ -4,13 +4,11 @@
 
 - Qt5 (qt5-base)
 - luajit
-- meson
-- luarocks
-- lua-curl (`luarocks install lua-curl`)
-
 - zlib
-- opengl
-- xml.lua, base64.lua, sha1.lua from the lua/ directory in the runtime-win32.zip from PathOfBuilding.
+- meson
+- luarocks (luarocks5.1 for Lua 5.3 users)
+- lua-curl (`sudo luarocks-5.1 install lua-curl`)
+- OpenGL or Mesa
 
 ## Build
 
