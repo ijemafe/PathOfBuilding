@@ -4,16 +4,13 @@
 
 - Qt5 (qt5-base)
 - luajit
+- meson
+- luarocks
+- lua-curl (`luarocks install --local lua-curl`)
+
 - zlib
 - opengl
-- Meson
 - xml.lua, base64.lua, sha1.lua from the lua/ directory in the runtime-win32.zip from PathOfBuilding.
-
-You also need Lua-Curl https://github.com/Lua-cURL/Lua-cURLv3 - on
-linux I installed luarocks for lua 5.1 and installed lua-curl that
-way.  On OSX I had to build it myself (I used the lua-curl sources
-from openarl's simplegraphic source zip, but the latest release will
-probably work - I believe that's what luarocks provides on linux).
 
 ## Build
 
