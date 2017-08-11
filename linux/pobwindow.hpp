@@ -33,8 +33,8 @@ public:
     basePath = QDir::currentPath();
     userPath = QDir::currentPath();
 
-    fontFudge = 0;
-    fontName = "Inconsolata";
+    fontFudge = -6;
+    fontName = "DejaVuSans";
   }
 
   //    POBWindow() : QOpenGLWindow() {
