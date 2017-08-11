@@ -23,10 +23,9 @@ cd build
 ninja
 ```
 
-## Run the thing
+## Run
 
 ```
-cd /path/to/PathOfBuilding # <- a pathofbuilding git clone
-unzip tree.zip # <- use the provided tree data because reasons
-/path/to/build/pobfrontend
+cd PathOfBuilding.git
+./pobfrontend
 ```
