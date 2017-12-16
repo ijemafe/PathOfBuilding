@@ -1,3 +1,9 @@
+# About This Fork
+
+This fork of Openarl/PathOfBuilding was created to organize Linux support. As of version 1.4.64, these changes are no longer required. Path of Building now runs natively under Wine on Linux and OSX.
+
+To get the latest build, visit https://www.github.com/Openarl/PathOfBuilding/releases
+
 # Path of Building
 
 Welcome to Path of Building, an offline build planner for Path of Exile!
